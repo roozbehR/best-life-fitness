@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import 'antd/dist/antd.css';
 import './App.css';
-import NavBar from './components/NavBar/navbar'
-import LoginForm from './components/LoginForm/loginform'
+import NavBar from './components/NavBar/navbar';
+import LoginSignupPage from './Login-Signup-Page'
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <LoginForm />
+      <LoginSignupPage />
     </div>
   );
 }

@@ -5,7 +5,7 @@
 
 .login-form {
   border: 1px solid rgba(0, 0, 0, 0.12);
-  width: 40%;
+  width: 35%;
   height: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -46,17 +46,45 @@
 }
 
 .login-form-button {
-  width: 90%;
+  width: 70%;
   height: 50px;
   background-color: green;
   border: 2px solid rgba(0, 0, 0, 0.12);
   font-size: large;
   border-radius: 15px;
   transition: all ease 0.35s;
-  margin-top: 5%;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  border: transparent;
 }
 
 .login-form-button:hover {
   background-color: green;
+  transform: scale(1.03);
+}
+
+.login-form-button:focus {
+  background-color: green;
+}
+
+.do-not-have-account {
+  display: flex;
+  justify-content: space-evenly;
+  color: #0088cc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: x-large;
+}
+
+.register-button {
+  background-color: red !important;
+  border-radius: 15px;
+  border: transparent;
+  width: 20%;
+  font-size: large;
+  transition: all ease 0.35s;
+}
+
+.register-button:hover {
   transform: scale(1.03);
 }

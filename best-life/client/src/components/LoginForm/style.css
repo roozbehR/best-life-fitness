@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "ubisoft_sansbold";
+  src: url("../../font/ubisoftsans-bold.ttf");
+}
+
+.login-form {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  width: 40%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.login-form-header {
+  font-family: "ubisoft_sansbold", serif;
+  height: 20%;
+  background-color: #252d3a;
+  margin: 2%;
+  color: white;
+  font-size: xxx-large;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-item {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.form-item-username {
+  margin-top: 5%;
+}
+
+.form-input {
+  margin-top: 2%;
+  height: 60px;
+  border-radius: 15px;
+  transition: all ease 0.35s;
+}
+.form-input:hover {
+  transform: scale(1.03);
+}
+
+.login-form-button {
+  width: 90%;
+  height: 50px;
+  background-color: green;
+  border: 2px solid rgba(0, 0, 0, 0.12);
+  font-size: large;
+  border-radius: 15px;
+  transition: all ease 0.35s;
+  margin-top: 5%;
+}
+
+.login-form-button:hover {
+  background-color: green;
+  transform: scale(1.03);
+}

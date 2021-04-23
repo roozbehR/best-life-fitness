@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "ubisoft_sansbold";
+  src: url("../../font/ubisoftsans-bold.ttf");
+}
+
+.main-navbar-container {
+  background-color: #810000;
+  display: flex;
+  justify-content: left;
+}
+
+.nav-item {
+  font-family: "ubisoft_sansbold", serif !important;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  margin: 10px;
+  color: white;
+  background-color: transparent;
+  border: transparent;
+  transition: all ease-out 0.3s;
+}
+
+.nav-item:hover {
+  transform: translateY(-5px);
+  color: green;
+}
+.nav-item:focus {
+  outline: 0;
+}

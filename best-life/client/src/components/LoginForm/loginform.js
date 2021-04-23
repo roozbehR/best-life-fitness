@@ -1,7 +1,7 @@
 import React from "react";
 import { Form, Input, Button, Checkbox } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
-import './style.css'
+import '../../styles/loginSignup.css'
 
 
 class LoginForm extends  React.Component {
@@ -9,10 +9,10 @@ class LoginForm extends  React.Component {
         return(
             <Form
             name="login-form"
-            className="login-form"
+            className="form"
             size={"large"}
             >
-                <div className="login-form-header">BestLife</div>
+                <div className="form-header">BestLife</div>
                 <Form.Item
                 name="username"
                 rules={[
@@ -38,14 +38,15 @@ class LoginForm extends  React.Component {
                     <Input.Password
                     prefix={<LockOutlined className="site-form-item-icon" />}
                     type="password"
-                    placeholder="Enter your password"
+                    placeholder="Enter your Password"
                     className="form-input"
                     />
                 </Form.Item>
                 <Form.Item>
-                    <Button type="primary" htmlType="submit" className="login-form-button">
+                    <Button type="primary" htmlType="submit" className="form-button-primary">
                         Log in
                     </Button>
+                    <p className="do-not-have-account">Don't have an account?<Button type="primary" className="form-button-secondary" onClick={this.props.changeLoginStatus}>Sign Up</Button></p>
                  </Form.Item>
             </Form>
     );
